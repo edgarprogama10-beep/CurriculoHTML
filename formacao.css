@@ -1,6 +1,6 @@
 body { /* fundo geral da página */
     background-color: #f5f5f5;
-    background: url(/imagensandArquivos/fundo-de-corredores-minimalistas_23-2149745316.avif) no-repeat center center fixed;
+    background: url(fundo-de-corredores-minimalistas_23-2149745316.avif) no-repeat center center fixed;
     background-size: cover;
     margin: 0;
     padding: 0;
