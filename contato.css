@@ -5,7 +5,7 @@ body{ /* estilo base da página */
     align-items: center;
     padding: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background:url("/imagensandArquivos/fundo-de-corredores-minimalistas_23-2149745316.avif")no-repeat center center fixed;
+    background:url("fundo-de-corredores-minimalistas_23-2149745316.avif")no-repeat center center fixed;
     background-size: cover; /* ajusta a imagem para cobrir toda a tela */
     color: white;
 }
