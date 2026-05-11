@@ -1,0 +1,104 @@
+body { /* fundo e cor base da página sobre */
+    background: url(/imagensandArquivos/fundo-de-corredores-minimalistas_23-2149745316.avif) 
+    no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+#sobre {
+    text-align: center;
+    color: rgb(136, 158, 153);
+    font-size: 75px;
+    background-color: rgba(29, 25, 25, 0.178);
+    border: 2px solid #000000;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+
+.sobre-container { /* área com a foto e o texto juntos */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: 2px solid #000000;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+.foto { /* define o tamanho da imagem de apresentação */
+    width: 350px;
+    height: auto; /* imagem redimensionada proporcionalmente */
+
+}
+
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+#info,#hobbies,#apresentar { /* parágrafos com informações pessoais e hobbies */
+
+    text-align: center;
+    color: rgb(136, 158, 153);
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: 2px solid #000000;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 18px;
+    border: none;
+    background:linear-gradient(45deg, rgba(0, 0, 0, 0.300), black);
+    color:rgb(136, 158, 153);
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+button:hover {
+    transform: translateY(-3px);
+    scale: 1.05;
+    background-color: #ffffff;
+}
+
+
+@media (max-width: 900px) {
+    .sobre-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .foto {
+        width: 250px;
+    }
+    #sobre {
+        font-size: 50px;
+    }
+    #info,
+    #hobbies,
+    #apresentar {
+        font-size: 20px;
+    }
+}
