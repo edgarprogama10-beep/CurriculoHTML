@@ -20,6 +20,6 @@ if (botaoContato) {
 const voltartela = document.getElementById('indexSobre'); // volta à tela principal
 if (voltartela) {
     voltartela.addEventListener('click', () => { // quando o botão voltar for clicado
-        window.location.href = 'indexSobre.html';
+        window.location.href = 'index.html';
     });
 }
